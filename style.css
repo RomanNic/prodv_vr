@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  margin: 0;
+}
+nav {
+  height: 142px;
+  top: 30px;
+  left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoOne {
+  width: 73px;
+  height: 105px;
+  margin-left: 40px;
+}
+
+.teaNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 562px;
+  height: 27px;
+  margin: 57px auto 0;
+  border: 1px solid black;
+  gap: 65px;
+  padding: 0 10px;
+}
+@media (max-width: 600px) {
+  .teaNav {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/image/baner.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.bannerBlok {
+  position: absolute;
+  width: 80%;
+  max-width: 680px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.pOne {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .bannerBlok {
+    font-size: 0.8em;
+  }
+}
+
+h3 {
+  font-size: 1.5em;
+}
+h3 {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+}
+h1 {
+  text-align: center;
+  margin: 100px auto 0;
+  max-width: 700px;
+  font-size: 2.5em;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+#collections {
+  display: flex;
+  justify-content: space-evenly;
+}
+h2 {
+  text-align: center;
+  margin: 130px auto 0;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.5em;
+  }
+}
+.tea {
+  width: 208px;
+  height: 208px;
+}
+.teap,
+.footerText {
+  margin-left: 40%;
+  font-size: 24px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+}
+#people {
+  background-color: #f7f2ea;
+  height: 397px;
+}
+.people {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 1198px;
+  margin-left: 5%;
+  width: 85%;
+  margin-left: 10%;
+}
+.boxPeople {
+  width: 300px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+h6,
+.footerTextItalic {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+}
+.imgBlog {
+  width: 270px;
+  height: 180px;
+}
+#teaBlog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.blogCommit {
+  display: flex;
+  gap: 20px;
+}
+.textBlog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+}
+.textBy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+button {
+  width: 149px;
+  height: 51px;
+}
+button,
+.open {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.form {
+  background-image: url("image/tea.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-color: #f7f2ea;
+  margin-top: 100px;
+  height: 400px;
+}
+#more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.input {
+  display: flex;
+  margin-top: 26%;
+}
+.some-input {
+  border: none;
+  border-bottom: 1px solid #b8b58b;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+  width: 75%;
+}
+.moreSize {
+  width: 600px;
+  margin-left: 35px;
+}
+.formH2 {
+  margin-top: 50px;
+  margin-left: -35%;
+}
+submit {
+  border: 1px solid #151618;
+  margin-left: 15px;
+  padding: 5px 25px 5px 25px;
+}
+.prioritiseImg {
+  width: 60px;
+  height: 60px;
+}
+.prioritise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.prioritiseItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.prioritiseText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+.prioritiseTextTwo {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+#prioritise {
+  margin-top: -50px;
+}
+#footer {
+  padding: 40px;
+  background-color: #f7f2ea;
+  margin-top: 120px;
+}
+.footerHeader {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerGap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footerGapTwo {
+  width: 250px;
+  margin-right: 10px;
+}
+.footerBlock {
+  display: flex;
+  width: 600px;
+  margin-top: 15px;
+}
+.footerImg {
+  margin-left: 12%;
+}
+.footerLogo {
+  display: flex;
+  gap: 10px;
+  margin-left: 33%;
+  margin-top: 20px;
+}
+.footerTextTwo {
+  margin-left: 33%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+.footerfontSize {
+  font-size: 13px;
+}
+.footerText {
+  padding: 40px;
+  margin-left: 21%;
+}
+.fT {
+  margin-top: 20px;
+  font-size: 12px;
+  margin-left: 0px;
+}
+.footerBlockItem {
+  width: 269px;
+}
+.footerBlockTwo {
+  margin-left: -15%;
+  width: 400px;
+}
+.footerIcon {
+  margin-left: -35px;
+}
+.iconLogo {
+  margin-top: 2px;
+  margin-right: 10px;
+  width: 22px;
+  height: 16px;
+}
+.icon {
+  display: flex;
+  margin-top: 10px;
+}
+.footerLogoTwo {
+  display: flex;
+  gap: 27px;
+  margin-left: 54%;
+  margin-top: 20px;
+}
+.visa {
+  display: flex;
+  margin: 90px 0px 0px 100px;
+  gap: 140px;
+}
+.company {
+  margin-left: 40px;
+}
+.products {
+  margin-left: 18px;
+}
+.stay {
+  margin-left: 45%;
+}
